@@ -1,3 +1,4 @@
+{{ 'hero-banner.css' | asset_url | stylesheet_tag }}
 {% liquid
   assign title = section.settings.title
   assign content = section.settings.content
@@ -13,8 +14,33 @@
 %}
 
 <section class="color-{{section.settings.color_scheme}} gradient">
-  <div class="page-width">
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, commodi.</h1>
+  <div class="slide-width">
+    <div class="slide">
+      {% for block in section.blocks %}
+        {% liquid
+          assign media = block.settings.slide
+        %}
+
+        {% if media %}
+          {{ media
+          | image_url: width: 1200
+          | image_tag:
+          loading: 'lazy',
+          fetchpriority: 'high',
+          class: 'slide_img'
+          }}
+        {% else %}
+          {{ 'lifestyle-1' | placeholder_svg_tag: 'slide_img' }}
+        {% endif %}
+      {% endfor %}
+
+    </div>
+    <div class="slide-content">
+      <div class="slide-width">
+        <h1>{{title}}</h1>
+        <p>{{content}}</p>
+      </div>
+    </div>
   </div>
 </section>
 
