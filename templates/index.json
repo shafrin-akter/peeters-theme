@@ -29,7 +29,8 @@
         "feature_01": "Plan een advies gesprek",
         "feature_02": "Plan een service gesprek",
         "placeholder": "Plan een service gesprek",
-        "search_btn_tex": "ZOEKEN"
+        "search_btn_tex": "ZOEKEN",
+        "color_scheme": "scheme-3"
       }
     },
     "image_banner": {
