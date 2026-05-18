@@ -9,60 +9,28 @@
  */
 {
   "sections": {
-    "collection_tabs_HXERbe": {
-      "type": "collection-tabs",
+    "hero_banner_iDzmUd": {
+      "type": "hero-banner",
       "blocks": {
-        "parent_tab_8nBMid": {
-          "type": "parent_tab",
+        "slide_U49Mkj": {
+          "type": "slide",
           "settings": {
-            "tab_title": "Featured",
-            "tab_description": "Description for this tab kjkj",
-            "button_text": "View All",
-            "button_collection": ""
-          }
-        },
-        "collection_block_9GMdWB": {
-          "type": "collection_block",
-          "settings": {
-            "parent_tab": "",
-            "collection": ""
-          }
-        },
-        "collection_block_Q8diw8": {
-          "type": "collection_block",
-          "settings": {
-            "parent_tab": "hjkhkjh",
-            "collection": "frontpage",
-            "custom_image": "shopify://shop_images/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg"
-          }
-        },
-        "parent_tab_Kddfhd": {
-          "type": "parent_tab",
-          "settings": {
-            "tab_title": "Featured",
-            "tab_description": "Description for this tab",
-            "button_text": "View All",
-            "button_collection": ""
-          }
-        },
-        "collection_block_nJDAtg": {
-          "type": "collection_block",
-          "settings": {
-            "parent_tab": "",
-            "collection": "frontpage",
-            "custom_image": "shopify://shop_images/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg"
+            "slide": "shopify://shop_images/CK1200W-MB-7.webp"
           }
         }
       },
       "block_order": [
-        "parent_tab_8nBMid",
-        "collection_block_9GMdWB",
-        "collection_block_Q8diw8",
-        "parent_tab_Kddfhd",
-        "collection_block_nJDAtg"
+        "slide_U49Mkj"
       ],
-      "name": "Dynamic Tabbed Collection",
-      "settings": {}
+      "name": "Hero Banner",
+      "settings": {
+        "title": "Wij houden van fietsen",
+        "content": "Ultiem fietsplezier door middel van optimale service, kwaliteit en vakmanschap. Dat staat bij ons voorop!",
+        "feature_01": "Plan een advies gesprek",
+        "feature_02": "Plan een service gesprek",
+        "placeholder": "Plan een service gesprek",
+        "search_btn_tex": "ZOEKEN"
+      }
     },
     "image_banner": {
       "type": "image-banner",
@@ -277,7 +245,7 @@
     }
   },
   "order": [
-    "collection_tabs_HXERbe",
+    "hero_banner_iDzmUd",
     "image_banner",
     "rich_text",
     "featured_collection",
