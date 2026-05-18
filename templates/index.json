@@ -12,15 +12,13 @@
     "hero_banner_iDzmUd": {
       "type": "hero-banner",
       "blocks": {
-        "slide_U49Mkj": {
+        "slide_UyUxEz": {
           "type": "slide",
-          "settings": {
-            "slide": "shopify://shop_images/CK1200W-MB-7.webp"
-          }
+          "settings": {}
         }
       },
       "block_order": [
-        "slide_U49Mkj"
+        "slide_UyUxEz"
       ],
       "name": "Hero Banner",
       "settings": {
